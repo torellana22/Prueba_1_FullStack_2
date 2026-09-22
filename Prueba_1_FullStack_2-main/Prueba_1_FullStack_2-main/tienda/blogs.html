@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | NodoPC</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="encabezado">
+    <div class="contenedor barra">
+      <a class="logo" href="index.html">
+        <img src="img/logo.svg" alt="Logo de NodoPC" width="36" height="36">
+        <span>NodoPC</span>
+      </a>
+      <nav class="menu" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="blogs.html" class="activo">Blogs</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="acciones">
+        <a href="login.html">Iniciar sesión</a>
+        <a href="registro.html">Registrar usuario</a>
+        <a href="carrito.html" class="carrito">Carrito (<span id="contador-carrito">0</span>)</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <h1 class="titulo-pagina">Blog</h1>
+    <p>Notas cortas sobre compatibilidad y componentes, para resolver dudas comunes antes de comprar.</p>
+
+    <div class="lista-productos">
+
+      <article class="tarjeta">
+        <a href="blog1.html">
+          <img src="img/fuente.svg" alt="Fuente de poder">
+        </a>
+        <div class="tarjeta-info">
+          <h3><a href="blog1.html">Cómo elegir la fuente de poder correcta</a></h3>
+          <p>Qué mirar antes de comprar una fuente y por qué conviene dejar margen para el futuro.</p>
+        </div>
+      </article>
+
+      <article class="tarjeta">
+        <a href="blog2.html">
+          <img src="img/ram.svg" alt="Memoria RAM">
+        </a>
+        <div class="tarjeta-info">
+          <h3><a href="blog2.html">DDR4 vs DDR5: qué diferencia hay</a></h3>
+          <p>Las diferencias entre ambos tipos de memoria y por qué no son compatibles entre sí.</p>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p class="pie-nombre">NodoPC</p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <p>&copy; 2026 NodoPC. Proyecto académico Duoc UC.</p>
+    </div>
+  </footer>
+
+  <script src="js/carrito.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Memoria RAM">
+<rect width="400" height="300" fill="#E9EEF8"/>
+<rect x="55" y="105" width="290" height="85" rx="6" fill="#14213D"/>
+<rect x="80" y="122" width="50" height="40" rx="4" fill="#1553E0"/><rect x="145" y="122" width="50" height="40" rx="4" fill="#1553E0"/><rect x="210" y="122" width="50" height="40" rx="4" fill="#1553E0"/><rect x="275" y="122" width="50" height="40" rx="4" fill="#1553E0"/>
+<rect x="80" y="172" width="240" height="6" fill="#8AA2D6"/>
+<rect x="55" y="190" width="290" height="14" fill="#F5B301"/>
+<rect x="190" y="190" width="10" height="14" fill="#E9EEF8"/>
+</svg>

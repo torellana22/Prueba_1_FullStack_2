@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Fuente de poder">
+<rect width="400" height="300" fill="#E9EEF8"/>
+<rect x="95" y="85" width="210" height="130" rx="12" fill="#14213D"/>
+<circle cx="180" cy="150" r="46" fill="none" stroke="#1553E0" stroke-width="8"/>
+<circle cx="180" cy="150" r="30" fill="none" stroke="#8AA2D6" stroke-width="3"/>
+<circle cx="180" cy="150" r="7" fill="#1553E0"/>
+<rect x="245" y="110" width="45" height="28" rx="4" fill="#F5B301"/><rect x="245" y="162" width="45" height="28" rx="4" fill="#8AA2D6"/>
+<path d="M305 124 C 340 124 340 190 372 190" fill="none" stroke="#8AA2D6" stroke-width="6"/>
+<path d="M305 176 C 335 176 335 220 372 220" fill="none" stroke="#F5B301" stroke-width="6"/>
+</svg>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NodoPC | Arma tu PC al mejor precio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/estilos.css">
+  <style>
+    /* Estilos propios del home, no molestan al resto del sitio */
+    .hero {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      background-color: #0E1B33;
+      color: #FFFFFF;
+      border-radius: 6px;
+      padding: 40px 32px;
+      margin: 24px 0;
+    }
+    .hero-texto { flex: 1; }
+    .hero-texto h1 { color: #FFFFFF; }
+    .hero-texto p { color: #C7D0E0; max-width: 480px; }
+    .hero-iconos {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      max-width: 300px;
+    }
+    .hero-iconos img {
+      background-color: #16233F;
+      border-radius: 6px;
+      padding: 14px;
+    }
+    .destacados h2 { margin-top: 0; }
+    @media (max-width: 700px) {
+      .hero { flex-direction: column; text-align: center; }
+      .hero-iconos { max-width: 220px; margin: 0 auto; }
+    }
+  </style>
+</head>
+<body>
+  <header class="encabezado">
+    <div class="contenedor barra">
+      <a class="logo" href="index.html">
+        <img src="img/logo.svg" alt="Logo de NodoPC" width="36" height="36">
+        <span>NodoPC</span>
+      </a>
+      <nav class="menu" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html" class="activo">Home</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="acciones">
+        <a href="login.html">Iniciar sesión</a>
+        <a href="registro.html">Registrar usuario</a>
+        <a href="carrito.html" class="carrito">Carrito (<span id="contador-carrito">0</span>)</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="contenedor">
+
+    <section class="hero">
+      <div class="hero-texto">
+        <h1>Arma tu PC al mejor precio</h1>
+        <p>Encuentra procesadores, tarjetas de video, memorias, almacenamiento y todos los componentes que necesitas para tu equipo.</p>
+        <a href="productos.html" class="boton boton-grande">Ver productos</a>
+      </div>
+      <div class="hero-iconos">
+        <img src="img/cpu.svg" alt="Procesadores">
+        <img src="img/gpu.svg" alt="Tarjetas de video">
+        <img src="img/ram.svg" alt="Memorias RAM">
+        <img src="img/placa.svg" alt="Placas madre">
+        <img src="img/ssd.svg" alt="Almacenamiento">
+        <img src="img/gabinete.svg" alt="Gabinetes">
+      </div>
+    </section>
+
+    <section class="seccion destacados">
+      <h2>Productos destacados</h2>
+      <p id="mensaje-carrito" class="mensaje-carrito" role="status"></p>
+      <div id="lista-destacados" class="lista-productos"></div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p class="pie-nombre">NodoPC</p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/productos-datos.js"></script>
+  <script src="js/carrito.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
