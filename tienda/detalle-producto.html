@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalle del producto | NodoPC</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="encabezado">
+    <div class="contenedor barra">
+      <a class="logo" href="index.html">
+        <img src="img/logo.svg" alt="Logo de NodoPC" width="36" height="36">
+        <span>NodoPC</span>
+      </a>
+      <nav class="menu" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="productos.html" class="activo">Productos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="acciones">
+        <a href="login.html">Iniciar sesión</a>
+        <a href="registro.html">Registrar usuario</a>
+        <a href="carrito.html" class="carrito">Carrito (<span id="contador-carrito">0</span>)</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <nav id="migas" class="migas" aria-label="Ruta de navegación">
+      <a href="index.html">Home</a> &gt; <a href="productos.html">Productos</a> &gt; <span>Detalle</span>
+    </nav>
+
+    <p id="mensaje-carrito" class="mensaje-carrito" role="status"></p>
+
+    <section id="detalle-producto" class="detalle" aria-label="Detalle del producto"></section>
+
+    <section id="ficha-tecnica" class="ficha-tecnica"></section>
+
+    <section id="seccion-relacionados" class="relacionados">
+      <h2>También te puede interesar</h2>
+      <div id="relacionados" class="lista-productos"></div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p class="pie-nombre">NodoPC</p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/productos-datos.js"></script>
+  <script src="js/carrito.js"></script>
+  <script src="js/detalle.js"></script>
+</body>
+</html>
